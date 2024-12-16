@@ -31,7 +31,6 @@ const links = [
 function Navbar() {
 
   const [nav, setNav] = useState(false)
-  const { t } = useTranslation();
 
   const scrollToSection = (sectionName) => {
     const section = document.getElementsByName(sectionName)[0];
