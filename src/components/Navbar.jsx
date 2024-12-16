@@ -1,7 +1,7 @@
 import React from 'react'
 import {FaBars, FaTimes} from "react-icons/fa"
 import { useState } from 'react'
-
+import { useTranslation } from 'react-i18next'
 const links = [
     {
         id:1,
@@ -31,7 +31,8 @@ const links = [
 function Navbar() {
 
   const [nav, setNav] = useState(false)
-  
+  const { t } = useTranslation();
+
   const scrollToSection = (sectionName) => {
     const section = document.getElementsByName(sectionName)[0];
     section?.scrollIntoView({ behavior: "smooth" });
@@ -49,7 +50,7 @@ function Navbar() {
        <ul className='hidden md:flex'>
         {links.map(( {id, link }) => (
             <li onClick={() => scrollToSection(link)}key={id} className="px-4 cursor-pointer capitalize font-medium text-gray-500 hover:scale-105 duration-200">
-                {link}
+                {t(link)}
             </li>
         ))}
        </ul>

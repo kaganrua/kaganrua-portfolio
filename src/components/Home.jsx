@@ -26,10 +26,7 @@ function Home() {
           <h2 className='text-4xl sm:text-7xl font-bold text-white'> I am a Software Developer</h2>
 
           <p className='text-gray-500 py-4 max-w-md'>
-          I'm a passionate Software Developer with experience in building
-            scalable web applications using Python, React, Node.js, and cloud
-            technologies. I thrive on solving complex problems, optimizing
-            performance, and delivering user-focused solutions.
+          Turning ideas into impactful software is what I do best. As a passionate Software Developer, I specialize in building scalable web applications using Python, React, Node.js, and cloud technologies. I thrive on tackling complex problems, optimizing performance, and crafting user-focused solutions that make a difference.
           </p>
 
           <div>
