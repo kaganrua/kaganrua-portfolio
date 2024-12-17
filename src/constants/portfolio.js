@@ -3,7 +3,7 @@ import Phonology from '../assets/portfolio/phonology.jpg'
 import WordSenseDisambiguation from "../assets/portfolio/word-sense.png"
 import GameAgent from "../assets/portfolio/ai-agent.jpg"
 import OsProject from "../assets/portfolio/os.jpg"
-
+import PersonalWebsite from "../assets/portfolio/personal-website.png"
 
 
     export const portfolios = [
@@ -40,6 +40,12 @@ import OsProject from "../assets/portfolio/os.jpg"
             image: OsProject,
             skills: "C, Operating Systems, Algorithms and Data Structures",
             link: "https://github.com/kaganrua/Comp-310-Operating-System"
+        },
+        {
+            id:6,
+            name: "Personal Website",
+            image: PersonalWebsite,
+            link: "https://github.com/kaganrua/kaganrua-portfolio"
         }
     ] 
 

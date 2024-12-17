@@ -18,7 +18,7 @@ function Portfolio() {
                           <h2 className="font-bold text-white mb-4 text-center truncate">{name}</h2>
   
                           {/* Portfolio Image */}
-                          <div className='w-full mb-4'>
+                          <div className='w-full mb-4 aspect-w-16 aspect-h-9'>
                               <img 
                                   src={image} 
                                   alt={name} 
