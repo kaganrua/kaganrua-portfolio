@@ -3,7 +3,7 @@ import { portfolios } from '../constants/portfolio'
 
 function Portfolio() {
     return (
-      <div name='portfolio' className="bg-gradient-to-b from-black to-gray-800 w-full text-white min-h-screen scroll-mt-20">
+      <div name='portfolio' className="bg-gradient-to-b from-black to-gray-800 w-full text-white min-h-screen scroll-mt-20 flex flex-col justify-center pt-20 pb-20">
   
           <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
               <div className='pb-8'>
