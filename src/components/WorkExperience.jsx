@@ -25,7 +25,7 @@ const experiences = [
     company: "McGill University",
     date: "Sep 2017 - Dec 2021",
     icon: <FaGraduationCap className="text-yellow-400" />,
-    description: "Focused on software engineering, algorithms, and cloud computing.",
+    description: "Focused on software engineering, algorithms, data structures and data science.",
     startDate: new Date(2017, 9),
     endDate: new Date(2021, 12)
   },
