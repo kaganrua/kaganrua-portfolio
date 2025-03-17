@@ -9,7 +9,6 @@ import WorkExperience from "./components/WorkExperience";
 
 function App() {
   return (
-    //increasing seo
       <div>
         <Navbar />
         <Home />

@@ -17,8 +17,8 @@ root.render(
         {/* Open Graph for social media */}
         <meta property="og:title" content="Kagan Rua - Software Developer" />
         <meta property="og:description" content="I build scalable web applications using React, Python, and AWS." />
-        <meta property="og:image" content="/professional-photo.jpeg" />
-        <meta property="og:url" content="https://kaganrua.netlify.app" />
+        <meta property="og:image" content="https://kaganrua.com/professional-photo.jpeg" />
+        <meta property="og:url" content="https://kaganrua.com" />
         <meta property="og:type" content="website" />
 
         <meta property="og:site_name" content="kagan rua" />
