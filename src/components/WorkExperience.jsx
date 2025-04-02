@@ -6,6 +6,7 @@ const experiences = [
     title: "Full-Stack Developer",
     company: "Rolls-Royce",
     date: "March 2025 - Present",
+    icon: <FaBriefcase className="text-cyan-500" />,
     description: "Working at Digital Transformation team.",
     startDate: new Date(2025, 3),
     endDate: null
