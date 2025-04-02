@@ -4,6 +4,14 @@ import { FaBriefcase, FaGraduationCap } from "react-icons/fa";
 const experiences = [
   {
     title: "Full-Stack Developer",
+    company: "Rolls-Royce",
+    date: "March 2025 - Present",
+    description: "Working at Digital Transformation team.",
+    startDate: new Date(2025, 3),
+    endDate: null
+  },
+  {
+    title: "Full-Stack Developer",
     company: "Zetane Systems",
     date: "Nov 2022 - Oct 2024",
     icon: <FaBriefcase className="text-cyan-500" />,
