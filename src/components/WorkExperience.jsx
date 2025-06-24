@@ -7,7 +7,7 @@ const experiences = [
     company: "Rolls-Royce",
     date: "March 2025 - Present",
     icon: <FaBriefcase className="text-cyan-500" />,
-    description: "Working at digital transformation team.",
+    description: "Built internal tools and modernized systems at Rolls-Royce to boost performance and workflow efficiency.",
     startDate: new Date(2025, 3),
     endDate: null
   },
