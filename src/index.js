@@ -9,6 +9,19 @@ root.render(
   <React.StrictMode>
     <HelmetProvider>
       <Helmet prioritizeSeoTags>
+
+     
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-BQVWZWHQN1"></script>
+        <script>
+          {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', 'G-BQVWZWHQN1');
+          `}
+        </script>
+        
         <title>Kagan Rua - Software Developer</title>
         <meta name="description" content="I am a software developer specializing in React, Python, and cloud technologies. I build scalable web applications and optimize performance." />
         <meta name="keywords" content="Software Developer, React, Python, Cloud, AWS, Full Stack" />
